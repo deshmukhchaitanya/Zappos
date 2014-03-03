@@ -89,12 +89,11 @@ public class ProductHelper
 			}
 			catch (MalformedURLException e) 
 			{
-				System.out.println("Something went erong while fetching data from Zappos, Please check the URL");
+				System.out.println("Something went wrong while fetching data from Zappos, Please check the URL");
 			} catch (IOException e) {
 
-				System.out.println("Something went erong while fetching data from Zappos, Please check the Input/Output Streams");
+				System.out.println("Something went wrong while fetching data from Zappos, Please check the Input/Output Streams");
 			}
-			//			System.out.println("list size:"+mapOfProducts.size());
 		} 
 
 		return mapOfProducts;
