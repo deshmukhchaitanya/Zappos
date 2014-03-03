@@ -1,5 +1,11 @@
 package zappos.product.common;
 
+/**
+ * @author chaitanya
+ *This is the Product class that is mapped to the products coming in as JSON array in the Zappos API
+ *response. For Simplicity I have considered that the products are uniquely identified by their 
+ *productID thus using it as a key(HashMap) wherever necessary. 
+ */
 public class Product 
 {
 	String price;
